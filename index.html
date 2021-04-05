@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbox</title>
+    <script defer src="http://172.104.207.250:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="  style.css">
+</head>
+<body>
+    <nav>
+        <img  class="logo" src="media/logo.png" alt="logo goes here">
+        <h1> Welcome to my chatbox </h1>
+    </nav>
+    <div class="container">
+        <div class="message left">left:: how are you?</div>
+        <div class="message right">right:: I am fine</div>
+        
+    </div>
+    
+    <div class="send">
+        <form action="#" id="sendcontainer">
+            <input type="text" name="messageinp" id="messageinp" placeholder="Type a message....">
+            <button class="btn" type="submit">send</button>
+        </form>
+        
+    </div>
+</body>
+</html>
